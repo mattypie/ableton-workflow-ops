@@ -1,5 +1,8 @@
 # 🎹 Ableton Workflow Ops
 
+> **[Self-Contained Workflow Utility]**
+> *A functional collection of Python and AppleScript automation tools used to orchestrate batch exports and metadata extraction from Ableton Live projects.*
+
 Python scripts for Ableton export and project management. This collection of tools automates the export and orchestration of audio production workflows.
 
 - ⚙️ **Automated Export**: Python logic for triggering and managing Ableton project exports.
