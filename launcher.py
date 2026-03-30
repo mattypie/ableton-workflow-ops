@@ -14,7 +14,7 @@ class AbletonLauncher:
 
     def cleanup_dialogs(self, stage="Generic"):
         """Clears any blocking dialogs from previous projects."""
-        script_path = "/Users/manas/Documents/AlphaCentuari/ableton auto exporter/cleanup_script.applescript"
+        script_path = "/Users/developer/projects/ableton auto exporter/cleanup_script.applescript"
         print(f"    [LOG] Cleaning up dialogs (Stage: {stage})...")
         subprocess.run(["osascript", script_path])
 
@@ -25,7 +25,7 @@ class AbletonLauncher:
 
     def trigger_applescript(self, loop_start, loop_length, output_filename):
         """Calls the AppleScript to handle the export dialog."""
-        script_path = "/Users/manas/Documents/AlphaCentuari/ableton auto exporter/export_script.applescript"
+        script_path = "/Users/developer/projects/ableton auto exporter/export_script.applescript"
         output_path = os.path.join(self.output_dir, output_filename)
         
         print(f"    [LOG] Triggering AppleScript: Start={loop_start}, Length={loop_length}")
@@ -106,7 +106,7 @@ class AbletonLauncher:
 if __name__ == "__main__":
     PATHS = [
         "/Volumes/T7/Daw n stuff/ableton projects 2/Projects/2023",
-        "/Users/manas/Documents/AlphaCentuari/ableton auto exporter"
+        "/Users/developer/projects/ableton auto exporter"
     ]
     
     launcher = AbletonLauncher(PATHS)

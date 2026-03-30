@@ -2,7 +2,7 @@ from launcher import AbletonLauncher
 
 PATHS = [
     "/Volumes/T7/Daw n stuff/ableton projects 2/Projects/2023",
-    "/Users/manas/Documents/AlphaCentuari/ableton auto exporter"
+    "/Users/developer/projects/ableton auto exporter"
 ]
 
 # Initialize launcher

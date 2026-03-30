@@ -3,7 +3,7 @@
 
 autowatch = 1;
 
-var stateFilePath = "/Users/manas/Documents/AlphaCentuari/ableton auto exporter/automation_state.json";
+var stateFilePath = "/Users/developer/projects/ableton auto exporter/automation_state.json";
 var pollInterval = 1000; // 1 second
 var task = new Task(pollStatus, this);
 
